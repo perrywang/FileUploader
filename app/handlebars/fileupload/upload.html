@@ -1,0 +1,29 @@
+
+<div class="ui grid">
+  <div class="row">
+    <div class="three wide column">
+      <div id="attaching" class="ui teal fluid left labeled icon button">Attaching Files&nbsp;&nbsp;....<i class="attach icon"></i></div>
+    </div>
+    <div class="three wide column">
+      <div id="upload" class="ui teal fluid left labeled icon button">Upload<i class="cloud upload icon"></i></div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="eight wide column">
+      <form action="/upload" method="post" enctype="multipart/form-data"></form>
+    </div>
+  </div>
+  <div class="row">
+    <div class="eight wide column">
+      <div class="ui divided list"></div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="eight wide column">
+      <div id="progress" style="margin-top:20px;" data-percent="0" class="ui teal large progress">
+        <div class="bar"></div>
+        <div class="label">uploading files</div>
+      </div>
+    </div>
+  </div>
+</div>

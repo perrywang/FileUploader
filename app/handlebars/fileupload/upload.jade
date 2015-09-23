@@ -1,0 +1,20 @@
+.ui.grid
+    .row
+        .three.wide.column
+            .ui.teal.fluid.left.labeled.icon.button#attaching Attaching Files&nbsp;&nbsp;....
+                i.attach.icon
+        .three.wide.column
+            .ui.teal.fluid.left.labeled.icon.button#upload Upload
+                i.cloud.upload.icon
+    .row
+        .eight.wide.column
+            form(action="/upload",method="post",enctype="multipart/form-data")
+    .row
+        .eight.wide.column
+            .ui.divided.list
+    .row
+        .eight.wide.column
+            #progress.ui.teal.large.progress(style="margin-top:20px;",data-percent="0")
+                .bar
+                .label uploading files
+
