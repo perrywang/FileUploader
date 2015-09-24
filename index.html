@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>File Uploader Demo</title>
+	<link rel="stylesheet" href="styles/semantic.css">
+</head>
+<body>
+    <h2>File Uploader Demo</h2>  
+	<div id="container">
+	</div>	
+</body>
+<script src="js/jquery.js"></script>
+<script src="js/semantic.js"></script>
+<script src="js/handlebars.js"></script>
+<script src="js/fileuploader.jquery.js"></script>
+<script>
+	$(document).ready(function(){
+		$('#container').fileUploader({url:'upload'});
+	});
+</script>
+</html>
