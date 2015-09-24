@@ -5,7 +5,7 @@
 - Easy Usage
 - Java spring server example code provided
 
-## Required
+## Prerequisites
 - jquery
 - semantic-ui
 - handlebars
