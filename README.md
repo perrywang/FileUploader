@@ -18,4 +18,7 @@ $(document).ready(function(){
 ```
 ## Example
 - see index.html
+- screenshot
+
+![screenshot](http://chatting8.com/wp-content/uploads/2015/09/fileupload-2.png "screenshot")
 
