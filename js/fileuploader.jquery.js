@@ -27,13 +27,13 @@
                                        <h4>Size</h4>\
                                     </div>\
                                   </div>\
-                                  <div class="row" style="margin-top:-20px">\
+                                  <div class="row" style="margin-top:-30px">\
                                     <div class="six wide column">\
                                         <div class="ui divider">\
                                         </div>\
                                     </div>\
                                   </div>\
-								  <div class="row">\
+								  <div class="row" style="margin-top:-30px">\
 								    <div class="six wide column">\
 								      <div class="ui divided list"></div>\
 								    </div>\
@@ -55,7 +55,7 @@
             var fileList = this.$el.find('.ui.list');
 			var progressBar = this.$el.find('#progress');
 			var progressBarLabel = this.$el.find('#progress .label');
-
+            progressBar.hide();
 			attachingBtn.on('click',function(event){
 				form.append('<input type="file" multiple="multiple" name="files[]" style="display:none;">');
                 var clickingInput = form.find('input:last');
